@@ -7,7 +7,7 @@ server {
 	proxy_set_header X-Forwarded-Proto $scheme;
 
 	location / {
-		proxy_pass 157.245.135.107:7070;
+		proxy_pass http://157.245.135.107:7070;
 	}
 
 }
